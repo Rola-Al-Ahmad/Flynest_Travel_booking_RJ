@@ -1,0 +1,137 @@
+.main-wrapper {
+  background-color: var(--section-bg);
+  color: var(--white-color);
+  min-height: 100vh;
+  padding: 200px 0;
+}
+
+.filter-sidebar {
+  background-color: #141624;
+  border: 1px solid #2c2f4a;
+  border-radius: 16px;
+  padding: 2rem;
+  color: var(--white-color);
+  font-size: 0.95rem;
+  transition: var(--transition-regular);
+}
+
+.filter-sidebar h5 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  border-bottom: 1px solid #2c2f4a;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-section {
+  margin-bottom: 1.5rem;
+}
+
+.filter-section legend {
+  color: #ccc;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.filter-section .form-select,
+.filter-section .form-control {
+  background-color: #1f2235 !important;
+  color: var(--white-color);
+  border: 1px solid #2c2f4a;
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.9rem;
+  transition: var(--transition-regular);
+}
+
+.filter-section .form-select option {
+  background-color: #1f2235 !important;
+  color: var(--white-color);
+  border: 1px solid #2c2f4a;
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+.filter-section .rating-badge {
+  background-color: #2c2f4a !important;
+  color: var(--white-color);
+  border-radius: 8px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: var(--transition-regular);
+  font-weight: 500;
+}
+
+.filter-section .rating-badge:hover {
+  transform: scale(1.05);
+}
+
+.listing-card .hotels-card,
+.listing-card .transports-card,
+.listing-card .restaurants-card {
+  background-color: #1b1e24 !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+
+.listing-card .card-title {
+  font-size: 1.2rem;
+  color: var(--white-color);
+  margin-bottom: 0.5rem !important;
+}
+
+.listing-card .hotels-card small,
+.listing-card .transports-card small,
+.listing-card .restaurants-card small {
+  font-size: 0.875rem !important;
+  color: var(--white-color);
+  margin-bottom: 0.5rem !important;
+}
+
+.listing-card .tours-card img,
+.hotels-card img,
+.transports-card img,
+.restaurants-card img {
+  border-radius: 12px 12px 0 0 !important;
+  object-fit: cover !important;
+}
+
+.hotels-card .badge,
+.transports-card .badge,
+.restaurants-card .badge {
+  font-size: 0.75rem !important;
+  padding: 6px 10px;
+  border-radius: 50px !important;
+  background-color: #f26f55 !important;
+  color: var(--white-color) !important;
+}
+
+.tours-card .text-muted,
+.hotels-card .text-muted,
+.transports-card .text-muted,
+.restaurants-card .text-muted {
+  color: #aaa !important;
+}
+
+.hotels-card .btn-outline-primary,
+.transports-card .btn-outline-primary,
+.restaurants-card .btn-outline-primary {
+  border: 1px solid var(--secondary-color) !important;
+  transition: var(--transition-regular) !important;
+  color: var(--secondary-color) !important;
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+}
+
+.hotels-card .btn-outline-primary:hover,
+.transports-card .btn-outline-primary:hover,
+.restaurants-card .btn-outline-primary:hover {
+  background-color: #e45c41 !important;
+  color: var(--white-color) !important;
+}

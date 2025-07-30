@@ -1,0 +1,133 @@
+.hero-header {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 91px !important;
+}
+
+.hero-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 43, 61, 0) 0%,
+    rgb(6, 47, 42) 100%
+  );
+  z-index: 0;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-overlay {
+  padding: 80px 0 40px;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  min-height: 100%;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.users img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--white-color);
+  z-index: 1;
+  margin: -5px;
+}
+
+.users span {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--white-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: -10px;
+  z-index: 2;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.travel-box {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  transform: translateY(40px);
+}
+
+.travel-box select,
+.travel-box input {
+  box-shadow: none !important;
+  color: var(--primary-para) !important;
+}
+
+.travel-box select option {
+  background-color: var(--section-bg) !important;
+  color: var(--white-color) !important;
+}
+
+@media (max-width: 990px) {
+  .hero-header {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-header.section {
+    padding-top: 150px !important;
+  }
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-header.section {
+    padding-top: 350px !important;
+  }
+}

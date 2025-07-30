@@ -1,0 +1,47 @@
+.about-container {
+  background-color: var(--section-bg);
+}
+
+.about-para {
+  color: var(--primary-para);
+}
+
+.about-container .btn {
+  background-color: var(--section-light-bg) !important;
+  border: 1px solid transparent !important;
+  padding: 6px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white-color) !important;
+  border-radius: 20px !important;
+  transition: var(--transition-regular) !important;
+}
+
+.about-container .btn:hover {
+  color: var(--white-color) !important;
+  border-color: var(--border-color) !important;
+}
+
+.user-icon i {
+  width: 40px;
+  height: 40px;
+  background-color: var(--white-color);
+  color: var(--section-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.stats-box h4 {
+  font-size: 40px;
+  color: var(--white-color);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.stats-box span {
+  color: var(--white-color);
+}

@@ -1,0 +1,39 @@
+/* MQ  */
+
+@media (max-width: 1300px) {
+  .travel-box {
+    transform: translateY(10px);
+  }
+}
+
+@media (max-width: 1199px) {
+  .hero-header {
+    min-height: auto !important;
+    height: 100vh !important;
+  }
+
+  .hero-header.section {
+    padding: 0 !important;
+  }
+
+  .travel-info {
+    border: none !important;
+    align-items: center !important;
+  }
+
+  .travel-box select,
+  .travel-box input {
+    align-items: center !important;
+  }
+
+  .hero-overlay {
+    top: 5% !important;
+    min-height: auto !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-overlay {
+    top: auto !important;
+  }
+}
