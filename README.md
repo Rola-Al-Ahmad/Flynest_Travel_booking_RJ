@@ -1,9 +1,18 @@
 # 🛫 Flynest Travel Booking
 
+![Flynest preview thumbnail](src/assets/thumbnail.png)
+
 A modern, responsive travel booking platform built with React and Vite, offering comprehensive travel services including tours, hotels, transportation, and restaurants.
+
+## 🔗 Live Demo
+
+👉 [View Deployed App](https://rola-al-ahmad.github.io/Flynest_Travel_booking_RJ/)
+
+---
 
 ## 📋 Table of Contents
 
+- [Project Overview](#-project-overview)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
@@ -15,6 +24,12 @@ A modern, responsive travel booking platform built with React and Vite, offering
 - [Routing](#-routing)
 - [Styling](#-styling)
 - [Contributing](#-contributing)
+
+## 🧠 Project Overview
+
+Flynest is a **full-featured travel booking platform** where users can discover tours, hotels, restaurants, and transportation options, add them to a cart, and complete a **secure, multi-step checkout** flow.  
+The project showcases a **feature-based React architecture** using **React Router** for page navigation, **Context API** for cart and booking state, and **JSON-driven data** for all travel content.  
+Its primary learning goals are to demonstrate **modern SPA patterns** (routing, layouts, protected pages), **form handling and validation**, **PDF invoice generation**, and a **production‑style UX** with toasts, loading states, and error handling.
 
 ## ✨ Features
 
