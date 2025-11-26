@@ -71,5 +71,6 @@ export const router = createBrowserRouter(
       </Route>
       <Route path="*" element={<NotFound />} />
     </Route>
-  )
+  ),
+  { basename: "/Flynest_Travel_booking_RJ/" }
 );
