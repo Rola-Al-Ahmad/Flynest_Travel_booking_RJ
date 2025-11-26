@@ -6,7 +6,7 @@ A modern, responsive travel booking platform built with React and Vite, offering
 
 ## 🔗 Live Demo
 
-👉 [View Deployed App](https://rola-al-ahmad.github.io/Flynest_Travel_booking_RJ/)
+👉 [View Deployed App](https://Rola-Al-Ahmad.github.io/Flynest_Travel_booking_RJ)
 
 ---
 
