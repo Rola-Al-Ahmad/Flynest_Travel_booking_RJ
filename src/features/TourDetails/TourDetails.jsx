@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 
-import toursData from "../../Data/Tours.json";
+import toursData from "../../Data/Tours";
 
 import { useParams } from "react-router";
 

@@ -101,10 +101,10 @@ Flynest_Travel_booking_RJ/
 ├── src/
 │   ├── assets/          # Application assets and images
 │   ├── Data/            # JSON data files
-│   │   ├── Hotel.json
-│   │   ├── Restaurant.json
-│   │   ├── Tours.json
-│   │   └── Transport.json
+│   │   ├── Hotel.js
+│   │   ├── Restaurant.js
+│   │   ├── Tours.js
+│   │   └── Transport.js
 │   ├── features/        # Feature-based components
 │   │   ├── About/       # About page components
 │   │   ├── Blog/        # Blog and news components

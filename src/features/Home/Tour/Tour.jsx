@@ -3,7 +3,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import toursData from "../../../Data/Tours.json";
+import toursData from "../../../Data/Tours";
 
 import "./Tour.css";
 import Container from "../../../shared/components/atoms/Container";

@@ -1,8 +1,8 @@
 import React from "react";
-import toursData from "../../../Data/Tours.json";
-import hotelsData from "../../../Data/Hotel.json";
-import transportsData from "../../../Data/Transport.json";
-import resturantsData from "../../../Data/Restaurant.json";
+import toursData from "../../../Data/Tours";
+import hotelsData from "../../../Data/Hotel";
+import transportsData from "../../../Data/Transport";
+import resturantsData from "../../../Data/Restaurant";
 
 // Utility function to get unique values from toursData
 const getUnique = (arr, key) => {
