@@ -32,10 +32,7 @@ export const router = createBrowserRouter(
       <Route path="transports" element={<Transports />} />
       <Route path="restaurants" element={<Restaurants />} /> */}
 
-      <Route
-        path="/tours"
-        element={<ListingLayout title="Tours - Leafcraft" />}
-      >
+      <Route path="/tours" element={<ListingLayout title="Tours - Flynest" />}>
         {/* <Route index element={<ListingPage />} /> */}
       </Route>
 
